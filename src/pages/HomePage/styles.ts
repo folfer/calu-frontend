@@ -40,7 +40,7 @@ export const Container = styled.div`
 
       position: relative;
 
-      bottom: 165px;
+      bottom: 132px;
       left: calc(50vw - 65px);
 
       /* z-index: 99; */
