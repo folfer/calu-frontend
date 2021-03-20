@@ -61,6 +61,7 @@ export const Container = styled.div`
     top: 21%;
     width: 82%;
     left: 0%;
+    font-size: 10px;
   }
 
   .secondText {
@@ -70,6 +71,7 @@ export const Container = styled.div`
     top: 25%;
     width: 69%;
     left: 0%;
+    font-size: 10px;
   }
 
   .thirdText {
@@ -79,6 +81,7 @@ export const Container = styled.div`
     top: 57%;
     width: 62%;
     left: 43%;
+    font-size: 10px;
   }
 
   .fourthText {
@@ -88,6 +91,7 @@ export const Container = styled.div`
     top: 21%;
     width: 82%;
     left: 10%;
+    font-size: 10px;
   }
 
   .fourImage {
@@ -129,19 +133,42 @@ export const Container = styled.div`
       height: 45px;
     }
   
-  /* @media(max-width: 550px) {
-    .button {
-      width: 130px;
-      height: 50px;
+  @media(min-width: 375px) {
+    .firstText {
+    font-size: 12px;
+  }
 
-      position: relative;
+  .secondText {
+    font-size: 12px;
+  }
 
-      bottom: 65px;
-      left: calc(50vw - 195px);
-      
-      cursor: pointer;
-    }
-  } */
+  .thirdText {
+    font-size: 12px;
+  }
+
+  .fourthText {
+    font-size: 12px;
+  }
+  }
+
+  @media(min-width: 414px) {
+    .firstText {
+    top: 21%;
+    font-size: 13px;
+  }
+
+  .secondText {
+    font-size: 13px;
+  }
+
+  .thirdText {
+    font-size: 13px;
+  }
+
+  .fourthText {
+    font-size: 13px;
+  }
+  }
 
   @media(orientation: landscape) {
     .firstImage {
