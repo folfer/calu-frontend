@@ -116,7 +116,7 @@ export const Container = styled.div`
   }
 
     .rightArrow {
-      top: 50%;
+      top: 45%;
       left: 90%;
       position: absolute;
       color: white;
@@ -126,7 +126,7 @@ export const Container = styled.div`
     }
 
     .leftArrow {
-      top: 50%;
+      top: 45%;
       right: 90%;
       position: absolute;
       color: white;
@@ -140,43 +140,98 @@ export const Container = styled.div`
       height: auto;
       background: black;
     }
+
+  @media(min-width: 350px) {
+    .firstText {
+    top: 24%;
+    font-size: 12px;
+  }
+
+  .secondText {
+    top: 28%;
+    font-size: 12px;
+  }
+
+  .thirdText {
+    font-size: 12px;
+    top: 56%;
+    left: 41%;
+  }
+
+  .fourthText {
+    top: 25%;
+    font-size: 12px;
+  }
+  }
   
   @media(min-width: 375px) {
     .firstText {
-    font-size: 12px;
-  }
+      top: 23%;
+      font-size: 12px;
+    }
 
-  .secondText {
-    font-size: 12px;
-  }
+    .secondText {
+      top: 25%;
+      font-size: 12px;
+    }
 
-  .thirdText {
-    font-size: 12px;
-  }
+    .thirdText {
+      top: 57%;
+      font-size: 12px;
+    }
 
-  .fourthText {
-    font-size: 12px;
+    .fourthText {
+      top: 23%;
+      font-size: 12px;
+    }
   }
-  }
+  
 
   @media(min-width: 414px) {
     .firstText {
-    top: 21%;
-    font-size: 13px;
+      top: 19%;
+      font-size: 13px;
+    }
+
+    .secondText {
+      top: 22%;
+      font-size: 13px;
+    }
+
+    .thirdText {
+      top: 59%;
+      font-size: 13px;
+    }
+
+    .fourthText {
+      top: 20%;
+      font-size: 13px;
+    }
   }
 
-  .secondText {
-    font-size: 13px;
+  @media(min-width: 768px) {
+    .firstText {
+      top: 12%;
+      font-size: 23px;
+    }
+
+    .secondText {
+      top: 17%;
+      font-size: 23px;
+    }
+
+    .thirdText {
+      font-size: 23px;
+      top: 63%;
+      left: 43%;
+    }
+
+    .fourthText {
+      font-size: 22px;
+      top: 16%;
+    }
   }
 
-  .thirdText {
-    font-size: 13px;
-  }
-
-  .fourthText {
-    font-size: 13px;
-  }
-  }
 
   @media(orientation: landscape) {
     .firstImage {
@@ -342,7 +397,7 @@ export const Container = styled.div`
     }
 
     .rightArrow {
-      top: 50%;
+      top: 45%;
       left: 93%;
       position: absolute;
       color: white;
@@ -352,7 +407,7 @@ export const Container = styled.div`
     }
 
     .leftArrow {
-      top: 50%;
+      top: 45%;
       right: 93%;
       position: absolute;
       color: white;
