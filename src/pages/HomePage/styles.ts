@@ -276,40 +276,40 @@ export const Container = styled.div`
       position: absolute;
       text-align: left;
       padding: 20px;
-      top: 9%;
+      top: 16%;
       width: 45%;
       left: 0%;
-      font-size: 17px;
+      font-size: 14px;
     }
 
     .secondText {
       position: absolute;
       text-align: left;
       padding: 20px;
-      top: 14%;
-      width: 30%;
+      top: 22%;
+      width: 34%;
       left: 50%;
-      font-size: 17px;
+      font-size: 14px;
     }
 
     .thirdText {
       position: absolute;
       text-align: left;
       padding: 20px;
-      top: 61%;
+      top: 60%;
       width: 28%;
       left: 72%;
-      font-size: 17px;
+      font-size: 14px;
     }
 
     .fourthText {
       position: absolute;
       text-align: center;
       padding: 20px;
-      top: 14%;
+      top: 21%;
       width: 36%;
       left: 7%;
-      font-size: 17px;
+      font-size: 14px;
     }
 
     .first-container {
@@ -384,23 +384,23 @@ export const Container = styled.div`
   }
 
   .firstText {
-    top: 17%;
+    top: 0%;
     font-size: 20px;
   }
 
   .secondText {
-    top: 21%;
+    top: 5%;
     font-size: 20px;
   }
 
   .thirdText {
-    top: 60%;
+    top: 66%;
     width: 28%;
     font-size: 20px;
   }
 
   .fourthText {
-    top: 21%;
+    top: 4%;
     font-size: 20px;
   }
 
