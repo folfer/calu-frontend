@@ -35,6 +35,10 @@ const HomePage: React.FC = () => {
     }
   }, [windowWidth]);
 
+  window.addEventListener('orientationchange', function(){
+    window.location.reload();
+  });
+
 
   return (
     <Container>
