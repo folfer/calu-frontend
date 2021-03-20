@@ -122,6 +122,7 @@ export const Container = styled.div`
       color: white;
       width: 45px;
       height: 45px;
+      cursor: pointer;
     }
 
     .leftArrow {
@@ -131,6 +132,7 @@ export const Container = styled.div`
       color: white;
       width: 45px;
       height: 45px;
+      cursor: pointer;
     }
   
   @media(min-width: 375px) {
@@ -173,7 +175,7 @@ export const Container = styled.div`
   @media(orientation: landscape) {
     .firstImage {
       width: auto;
-      height: 100vh;
+      height: 85vh;
     }
     .fourImage {
       width: auto;
@@ -197,35 +199,59 @@ export const Container = styled.div`
       text-align: left;
       padding: 20px;
       top: 5%;
-      width: 59%;
-      left: 21%;
+      width: 48%;
+      left: 25%;
+      font-size: 11px;
     }
 
     .secondText {
       position: absolute;
       text-align: left;
       padding: 20px;
-      top: 8%;
+      top: 10%;
       width: 46%;
-      left: 23%;
+      left: 25%;
+      font-size: 11px;
     }
 
     .thirdText {
       position: absolute;
       text-align: left;
       padding: 20px;
-      top: 61%;
-      width: 34%;
-      left: 46%;
+      top: 59%;
+      width: 31%;
+      left: 45%;
+      font-size: 11px;
     }
 
     .fourthText {
       position: absolute;
       text-align: center;
       padding: 20px;
-      top: 2%;
+      top: 9%;
       width: 51%;
       left: 25%;
+      font-size: 11px;
+    }
+
+    .rightArrow {
+      top: 45%;
+      left: 90%;
+      position: absolute;
+      color: white;
+      width: 45px;
+      height: 45px;
+      cursor: pointer;
+    }
+
+    .leftArrow {
+      top: 45%;
+      right: 90%;
+      position: absolute;
+      color: white;
+      width: 45px;
+      height: 45px;
+      cursor: pointer;
     }
   }
 
@@ -244,6 +270,7 @@ export const Container = styled.div`
       top: 9%;
       width: 45%;
       left: 0%;
+      font-size: 17px;
     }
 
     .secondText {
@@ -253,6 +280,7 @@ export const Container = styled.div`
       top: 14%;
       width: 30%;
       left: 50%;
+      font-size: 17px;
     }
 
     .thirdText {
@@ -262,6 +290,7 @@ export const Container = styled.div`
       top: 61%;
       width: 28%;
       left: 72%;
+      font-size: 17px;
     }
 
     .fourthText {
@@ -271,6 +300,7 @@ export const Container = styled.div`
       top: 14%;
       width: 36%;
       left: 7%;
+      font-size: 17px;
     }
 
     .first-container {
@@ -309,6 +339,7 @@ export const Container = styled.div`
       color: white;
       width: 75px;
       height: 75px;
+      cursor: pointer;
     }
 
     .leftArrow {
@@ -318,6 +349,7 @@ export const Container = styled.div`
       color: white;
       width: 75px;
       height: 75px;
+      cursor: pointer;
     }
   }
 
