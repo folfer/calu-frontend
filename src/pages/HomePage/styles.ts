@@ -51,10 +51,48 @@ export const Container = styled.div`
 
   .firstImage {
     width: 100%;
+    position: absolute;
+  }
+
+  .firstText {
+    position: absolute;
+    text-align: left;
+    padding: 20px;
+    top: 21%;
+    width: 82%;
+    left: 0%;
+  }
+
+  .secondText {
+    position: absolute;
+    text-align: left;
+    padding: 20px;
+    top: 25%;
+    width: 69%;
+    left: 0%;
+  }
+
+  .thirdText {
+    position: absolute;
+    text-align: left;
+    padding: 20px;
+    top: 57%;
+    width: 62%;
+    left: 43%;
+  }
+
+  .fourthText {
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    top: 21%;
+    width: 82%;
+    left: 10%;
   }
 
   .fourImage {
     width: 100%;
+    position: absolute;
   }
 
   > p {
@@ -62,15 +100,33 @@ export const Container = styled.div`
   }
 
   .button {
-      width: 130px;
-      height: 50px;
+    width: 90px;
+    height: 35px;
 
-      position: relative;
+    position: relative;
 
-      bottom: 65px;
-      left: calc(50vw - 195px);
-      
-      cursor: pointer;
+    bottom: -22%;
+    left: -31%;
+    
+    cursor: pointer;
+  }
+
+    .rightArrow {
+      top: 50%;
+      left: 90%;
+      position: absolute;
+      color: white;
+      width: 45px;
+      height: 45px;
+    }
+
+    .leftArrow {
+      top: 50%;
+      right: 90%;
+      position: absolute;
+      color: white;
+      width: 45px;
+      height: 45px;
     }
   
   /* @media(max-width: 550px) {
@@ -87,7 +143,108 @@ export const Container = styled.div`
     }
   } */
 
+  @media(orientation: landscape) {
+    .firstImage {
+      width: auto;
+      height: 100vh;
+    }
+    .fourImage {
+      width: auto;
+      height: 100vh;
+    }
+
+    .button {
+      width: 100px;
+      height: 35px;
+
+      position: relative;
+
+      bottom: -36%;
+      left: -12%;
+      
+      cursor: pointer;
+    }
+
+    .firstText {
+      position: absolute;
+      text-align: left;
+      padding: 20px;
+      top: 5%;
+      width: 59%;
+      left: 21%;
+    }
+
+    .secondText {
+      position: absolute;
+      text-align: left;
+      padding: 20px;
+      top: 8%;
+      width: 46%;
+      left: 23%;
+    }
+
+    .thirdText {
+      position: absolute;
+      text-align: left;
+      padding: 20px;
+      top: 61%;
+      width: 34%;
+      left: 46%;
+    }
+
+    .fourthText {
+      position: absolute;
+      text-align: center;
+      padding: 20px;
+      top: 2%;
+      width: 51%;
+      left: 25%;
+    }
+  }
+
   @media(min-width: 980px) {
+
+    .firstImage {
+      width: auto;
+      height: initial;
+      position: relative;
+    }
+
+    .firstText {
+      position: absolute;
+      text-align: left;
+      padding: 20px;
+      top: 9%;
+      width: 45%;
+      left: 0%;
+    }
+
+    .secondText {
+      position: absolute;
+      text-align: left;
+      padding: 20px;
+      top: 14%;
+      width: 30%;
+      left: 50%;
+    }
+
+    .thirdText {
+      position: absolute;
+      text-align: left;
+      padding: 20px;
+      top: 61%;
+      width: 28%;
+      left: 72%;
+    }
+
+    .fourthText {
+      position: absolute;
+      text-align: center;
+      padding: 20px;
+      top: 14%;
+      width: 36%;
+      left: 7%;
+    }
 
     .first-container {
       width: 100%;
@@ -116,6 +273,24 @@ export const Container = styled.div`
       right: 20%;
 
       cursor: pointer;
+    }
+
+    .rightArrow {
+      top: 50%;
+      left: 93%;
+      position: absolute;
+      color: white;
+      width: 75px;
+      height: 75px;
+    }
+
+    .leftArrow {
+      top: 50%;
+      right: 93%;
+      position: absolute;
+      color: white;
+      width: 75px;
+      height: 75px;
     }
   }
 

@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 
 import FlipPage from "react-flip-page";
 
+import { MdChevronRight, MdChevronLeft } from "react-icons/md";
+
 import { Container } from './styles';
 
 import First from '../../assets/firstmobile.png';
@@ -44,10 +46,17 @@ const HomePage: React.FC = () => {
               <FlipPage flipOnTouch={true} showSwipeHint={true} uncutPages width="100%" height={window.innerHeight} orientation="horizontal">
                 <article className="firstArticle">
                   <img src={FirstDesktop} alt="first" className="firstImage" />
+                  <MdChevronRight className="rightArrow"/>
+                  <p className="firstText">Calu gosta muito das brincadeiras antigas, como peteca, amarelinha, jogo das pedrinhas e muitas outras que aprendeu com seus avós. Já seu irmão, Gabriel Akin, preferia, como todos os meninos de 10 anos, jogar videogame. </p>
+                  <p className="secondText">Calu teve uma ideia para chamar a atenção de Gabriel: mostrar como brincadeiras antigas também podem ser divertidas.
+                    </p>
+                    <p className="thirdText">Foi então que ela disse para ele que tinha criado um videogame para jogar peteca! Gabriel, ao ouvir isso, finalmente tirou o olho da TV e logo quis saber como poderia brincar também!</p>
                 </article>
                 <article className="secondArticle">
                   <img src={SecondDesktop} alt="first" className="firstImage" />
                   <img src={Start} alt="button" onClick={handleCallingGame} className="buttonDesktop" />
+                  <MdChevronLeft className="leftArrow"/>
+                  <p className="fourthText">Calu começou a contar sobre o jogo, suas cores, sons e que poderiam fazer uma competição para descobrir quem conseguiria fazer mais pontos, deixando Gabriel ainda mais animado para jogar. </p>
                 </article>
               </FlipPage>
             </div>
@@ -58,16 +67,27 @@ const HomePage: React.FC = () => {
                 <FlipPage flipOnTouch={true} disableSwipe={true} animationDuration={0} uncutPages noShadow={true} width="100%" height={window.innerHeight} orientation="horizontal">
                   <article className="firstArticle">
                     <img src={First} alt="first" className="firstImage" />
+                    <MdChevronRight className="rightArrow"/>
+                    <p className="firstText">Calu gosta muito das brincadeiras antigas, como peteca, amarelinha, jogo das pedrinhas e muitas outras que aprendeu com seus avós. Já seu irmão, Gabriel Akin, preferia, como todos os meninos de 10 anos, jogar videogame. </p>
                   </article>
                   <article className="secondArticle">
                     <img src={Second} alt="first" className="firstImage" />
+                    <MdChevronLeft className="leftArrow"/>
+                    <MdChevronRight className="rightArrow"/>
+                    <p className="secondText">Calu teve uma ideia para chamar a atenção de Gabriel: mostrar como brincadeiras antigas também podem ser divertidas.
+                    </p>
+                    <p className="thirdText">Foi então que ela disse para ele que tinha criado um videogame para jogar peteca! Gabriel, ao ouvir isso, finalmente tirou o olho da TV e logo quis saber como poderia brincar também!</p>
                   </article>
                   <article className="thirdArticle">
                     <img src={Third} alt="first" className="firstImage" />
+                    <MdChevronLeft className="leftArrow"/>
+                    <MdChevronRight className="rightArrow"/>
+                    <p className="fourthText">Calu começou a contar sobre o jogo, suas cores, sons e que poderiam fazer uma competição para descobrir quem conseguiria fazer mais pontos, deixando Gabriel ainda mais animado para jogar. </p>
                   </article>
                   <article className="fourArticle">
                     <img src={Four} alt="first" className="fourImage" />
                     <img src={Start} alt="button" onClick={handleCallingGame} className="button" />
+                    <MdChevronLeft className="leftArrow"/>
                   </article>
                 </FlipPage>
               </div>

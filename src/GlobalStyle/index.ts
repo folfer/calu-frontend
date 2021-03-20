@@ -7,7 +7,7 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     outline: 0;
-    font-family: 'Bellota', cursive;
+    font-family: 'Noto Sans', sans-serif;
     scroll-behavior: smooth;
   }
 
