@@ -134,6 +134,12 @@ export const Container = styled.div`
       height: 45px;
       cursor: pointer;
     }
+
+    .game-container {
+      width: 100%;
+      height: auto;
+      background: black;
+    }
   
   @media(min-width: 375px) {
     .firstText {
@@ -256,6 +262,9 @@ export const Container = styled.div`
   }
 
   @media(min-width: 980px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     .firstImage {
       width: auto;
@@ -351,6 +360,12 @@ export const Container = styled.div`
       height: 75px;
       cursor: pointer;
     }
+
+    .game-container {
+      width: 400px;
+      height: 100vh;
+      background: black;
+    }
   }
 
   @media(min-width: 1366px) {
@@ -366,6 +381,27 @@ export const Container = styled.div`
 
   .second-container {
     width: 1600px;
+  }
+
+  .firstText {
+    top: 17%;
+    font-size: 20px;
+  }
+
+  .secondText {
+    top: 21%;
+    font-size: 20px;
+  }
+
+  .thirdText {
+    top: 60%;
+    width: 28%;
+    font-size: 20px;
+  }
+
+  .fourthText {
+    top: 21%;
+    font-size: 20px;
   }
 
 
@@ -412,6 +448,27 @@ export const Container = styled.div`
     right: 20%;
 
     cursor: pointer;
+  }
+
+  .firstText {
+    top: 13%;
+    font-size: 24px;
+  }
+
+  .secondText {
+    top: 18%;
+    font-size: 24px;
+  }
+
+  .thirdText {
+    top: 62%;
+    width: 28%;
+    font-size: 24px;
+  }
+
+  .fourthText {
+    top: 18%;
+    font-size: 24px;
   }
 }
 `;

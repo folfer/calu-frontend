@@ -43,6 +43,9 @@ const HomePage: React.FC = () => {
   return (
     <Container>
       {isHistory ? (<>
+      <div className="game-container">
+
+      </div>
       </>) : <>
         {!isMobile ? (
           <div className="first-container">
