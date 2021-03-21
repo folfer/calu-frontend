@@ -4,6 +4,8 @@ import FlipPage from "react-flip-page";
 
 import { MdChevronRight, MdChevronLeft } from "react-icons/md";
 
+import GamePage from "../GamePage/index";
+
 import { Container } from './styles';
 
 import First from '../../assets/firstmobile.png';
@@ -44,7 +46,7 @@ const HomePage: React.FC = () => {
     <Container>
       {isHistory ? (<>
       <div className="game-container">
-
+        <GamePage />
       </div>
       </>) : <>
         {!isMobile ? (
