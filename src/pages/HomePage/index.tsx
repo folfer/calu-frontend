@@ -66,6 +66,9 @@ const HomePage: React.FC = () => {
                   <img src={Start} alt="button" onClick={handleCallingGame} className="buttonDesktop" />
                   <MdChevronLeft className="leftArrow"/>
                   <p className="fourthText">Calu começou a contar sobre o jogo, suas cores, sons e que poderiam fazer uma competição para descobrir quem conseguiria fazer mais pontos, deixando Gabriel ainda mais animado para jogar. </p>
+                  <p className="fifthText">Basta não deixar a peteca cair ou fugir de você! Ah! Tome cuidado para não machucar nenhum animalzinho que esteja passando por perto.</p>
+                  <p className="sixthText">Agora, você também pode jogar peteca com Calu e Gabriel!</p>
+                  <p className="seventhText">Você tem 3 petecas e quanto mais tempo conseguir ficar com ela no ar mais pontos você ganhará.</p>
                 </article>
               </FlipPage>
             </div>
@@ -96,7 +99,10 @@ const HomePage: React.FC = () => {
                   <article className="fourArticle">
                     <img src={Four} alt="first" className="fourImage" />
                     <img src={Start} alt="button" onClick={handleCallingGame} className="button" />
-                    <MdChevronLeft className="leftArrow"/>
+                    <p className="fifthText">Basta não deixar a peteca cair ou fugir de você! Ah! Tome cuidado para não machucar nenhum animalzinho que esteja passando por perto.</p>
+                    <p className="sixthText">Agora, você também pode jogar peteca com Calu e Gabriel!</p>
+                    <p className="seventhText">Você tem 3 petecas e quanto mais tempo conseguir ficar com ela no ar mais pontos você ganhará.</p>
+                      <MdChevronLeft className="leftArrow"/>
                   </article>
                 </FlipPage>
               </div>
