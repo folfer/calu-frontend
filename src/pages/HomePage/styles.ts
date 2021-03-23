@@ -173,6 +173,59 @@ export const Container = styled.div`
       justify-content: center;
     }
 
+    @media(min-width: 300px) and (min-height: 568px) {
+    .firstText {
+    top: 22%;
+    font-size: 10px;
+  }
+
+  .secondText {
+    top: 27%;
+    font-size: 10px;
+  }
+
+  .thirdText {
+    font-size: 10px;
+    top: 53%;
+    left: 41%;
+  }
+
+  .fourthText {
+    top: 24%;
+    font-size: 10px;
+  }
+  
+  .fifthText {
+    top: 24%;
+    left: 0%;
+    font-size: 10px;
+    width: 50%;
+  }
+
+  .sixthText {
+    top: 24%;
+    left: 55%;
+    font-size: 10px;
+    width: 44%;
+  }
+
+  .seventhText {
+    top: 45%;
+    left: 0%;
+    font-size: 10px;
+    width: 43%;
+  }
+
+  .button {
+    width: 90px;
+    height: 35px;
+    position: relative;
+    bottom: -19%;
+    left: 3%;
+    cursor: pointer;
+  }
+  }
+
   @media(min-width: 320px) and (min-height: 568px) {
     .firstText {
     top: 21%;
@@ -213,50 +266,6 @@ export const Container = styled.div`
     top: 48%;
     left: 0%;
     font-size: 10px;
-    width: 43%;
-  }
-  }
-
-  @media(min-width: 350px) and (min-height: 640px) {
-    .firstText {
-    top: 21%;
-    font-size: 12px;
-  }
-
-  .secondText {
-    top: 25%;
-    font-size: 12px;
-  }
-
-  .thirdText {
-    font-size: 12px;
-    top: 57%;
-    left: 41%;
-  }
-
-  .fourthText {
-    top: 22%;
-    font-size: 12px;
-  }
-  
-  .fifthText {
-    top: 22%;
-    left: 0%;
-    font-size: 12px;
-    width: 50%;
-  }
-
-  .sixthText {
-    top: 22%;
-    left: 55%;
-    font-size: 12px;
-    width: 44%;
-  }
-
-  .seventhText {
-    top: 48%;
-    left: 0%;
-    font-size: 12px;
     width: 43%;
   }
   }
@@ -308,6 +317,94 @@ export const Container = styled.div`
     bottom: -19%;
   }
   }
+
+  @media(min-width: 360px) and (min-height: 640px) {
+    .firstText {
+      top: 20%;
+      font-size: 12px;
+    }
+
+    .secondText {
+      top: 24%;
+      font-size: 12px;
+    }
+
+    .thirdText {
+      top: 57%;
+      font-size: 12px;
+    }
+
+    .fourthText {
+      top: 22%;
+      font-size: 12px;
+    }
+
+    .fifthText {
+    top: 22%;
+    left: 0%;
+    font-size: 12px;
+  }
+
+  .sixthText {
+    top: 22%;
+    left: 55%;
+    font-size: 12px;
+  }
+
+  .seventhText {
+    top: 48%;
+    left: 0%;
+    font-size: 12px;
+  }
+
+  .button {
+    bottom: -21%;
+  }
+  }
+
+  @media(min-width: 360px) and (min-height: 740px) {
+    .firstText {
+      top: 23%;
+      font-size: 12px;
+    }
+
+    .secondText {
+      top: 27%;
+      font-size: 12px;
+    }
+
+    .thirdText {
+      top: 56%;
+      font-size: 12px;
+    }
+
+    .fourthText {
+      top: 25%;
+      font-size: 12px;
+    }
+
+    .fifthText {
+    top: 26%;
+    left: 0%;
+    font-size: 12px;
+  }
+
+  .sixthText {
+    top: 26%;
+    left: 55%;
+    font-size: 12px;
+  }
+
+  .seventhText {
+    top: 48%;
+    left: 0%;
+    font-size: 12px;
+  }
+
+  .button {
+    bottom: -19%;
+  }
+  }
   
   @media(min-width: 375px) and (min-height: 667px) {
     .firstText {
@@ -352,45 +449,44 @@ export const Container = styled.div`
       bottom: -22%;
     }
   }
-  
 
-  @media(min-width: 414px) and (min-height: 846px) {
+  @media(min-width: 375px) and (min-height: 812px) {
     .firstText {
-      top: 24%;
-      font-size: 13px;
+      top: 25%;
+      font-size: 12px;
     }
 
     .secondText {
-      top: 27%;
-      font-size: 13px;
+      top: 29%;
+      font-size: 12px;
     }
 
     .thirdText {
-      top: 57%;
-      font-size: 13px;
+      top: 56%;
+      font-size: 12px;
     }
 
     .fourthText {
-      top: 26%;
-      font-size: 13px;
+      top: 27%;
+      font-size: 12px;
     }
 
     .fifthText {
-    top: 26%;
+    top: 27%;
     left: 0%;
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .sixthText {
-    top: 26%;
+    top: 27%;
     left: 55%;
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .seventhText {
     top: 48%;
     left: 0%;
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .button {
@@ -441,44 +537,45 @@ export const Container = styled.div`
     bottom: -19%;
   }
   }
+  
 
-  @media(min-width: 375px) and (min-height: 812px) {
+  @media(min-width: 414px) and (min-height: 846px) {
     .firstText {
-      top: 25%;
-      font-size: 12px;
+      top: 24%;
+      font-size: 13px;
     }
 
     .secondText {
-      top: 29%;
-      font-size: 12px;
+      top: 27%;
+      font-size: 13px;
     }
 
     .thirdText {
-      top: 56%;
-      font-size: 12px;
+      top: 57%;
+      font-size: 13px;
     }
 
     .fourthText {
-      top: 27%;
-      font-size: 12px;
+      top: 26%;
+      font-size: 13px;
     }
 
     .fifthText {
-    top: 27%;
+    top: 26%;
     left: 0%;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .sixthText {
-    top: 27%;
+    top: 26%;
     left: 55%;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .seventhText {
     top: 48%;
     left: 0%;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .button {
@@ -486,96 +583,48 @@ export const Container = styled.div`
   }
   }
 
-  @media(min-width: 360px) and (min-height: 640px) {
+  @media(min-width: 414px) and (min-height: 896px) {
     .firstText {
-      top: 20%;
-      font-size: 12px;
+      top: 26%;
+      font-size: 13px;
     }
 
     .secondText {
-      top: 24%;
-      font-size: 12px;
+      top: 29%;
+      font-size: 13px;
     }
 
     .thirdText {
-      top: 57%;
-      font-size: 12px;
+      top: 56%;
+      font-size: 13px;
     }
 
     .fourthText {
-      top: 22%;
-      font-size: 12px;
+      top: 28%;
+      font-size: 13px;
     }
 
     .fifthText {
-    top: 22%;
+    top: 27%;
     left: 0%;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .sixthText {
-    top: 22%;
+    top: 27%;
     left: 55%;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .seventhText {
-    top: 48%;
+    top: 50%;
     left: 0%;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .button {
-    bottom: -21%;
+    bottom: -17%;
   }
-  }
-
-  @media(min-width: 800px) and (min-height: 1280px) {
-    .firstText {
-      top: 12%;
-      font-size: 23px;
-    }
-
-    .secondText {
-      top: 22%;
-      font-size: 23px;
-    }
-
-    .thirdText {
-      font-size: 23px;
-      top: 61%;
-      left: 43%;
-      width: 56%;
-    }
-
-    .fourthText {
-      font-size: 22px;
-      top: 23%;
-    }
-
-    .fifthText {
-      top: 21%;
-      left: 4%;
-      font-size: 22px;
-  }
-
-  .sixthText {
-    top: 21%;
-    left: 54%;
-    font-size: 22px;
-  }
-
-  .seventhText {
-    top: 58%;
-    left: 3%;
-    font-size: 22px;
-  }
-
-    .button {
-      width: 130px;
-      height: 45px;
-      bottom: -31%;
-    }
   }
 
   @media(min-width: 768px) {
@@ -622,6 +671,185 @@ export const Container = styled.div`
       width: 130px;
       height: 45px;
       bottom: -31%;
+    }
+  }
+
+
+  @media(min-width: 800px) and (min-height: 1280px) {
+    .firstText {
+      top: 12%;
+      font-size: 23px;
+    }
+
+    .secondText {
+      top: 22%;
+      font-size: 23px;
+    }
+
+    .thirdText {
+      font-size: 23px;
+      top: 61%;
+      left: 43%;
+      width: 56%;
+    }
+
+    .fourthText {
+      font-size: 22px;
+      top: 23%;
+    }
+
+    .fifthText {
+      top: 21%;
+      left: 4%;
+      font-size: 22px;
+  }
+
+  .sixthText {
+    top: 21%;
+    left: 54%;
+    font-size: 22px;
+  }
+
+  .seventhText {
+    top: 58%;
+    left: 3%;
+    font-size: 22px;
+  }
+
+    .button {
+      width: 130px;
+      height: 45px;
+      bottom: -24%;
+    }
+  }
+
+  @media(min-width: 980px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .firstImage {
+      width: 100%;
+      height: initial;
+      position: relative;
+    }
+
+    .firstText {
+      position: absolute;
+      text-align: left;
+      padding: 20px;
+      top: 22%;
+      width: 45%;
+      left: 0%;
+      font-size: 14px;
+    }
+
+    .secondText {
+      position: absolute;
+      text-align: left;
+      padding: 20px;
+      top: 26%;
+      width: 34%;
+      left: 50%;
+      font-size: 14px;
+    }
+
+    .thirdText {
+      position: absolute;
+      text-align: left;
+      padding: 20px;
+      top: 60%;
+      width: 28%;
+      left: 72%;
+      font-size: 14px;
+    }
+
+    .fourthText {
+      position: absolute;
+      text-align: center;
+      padding: 20px;
+      top: 25%;
+      width: 36%;
+      left: 7%;
+      font-size: 14px;
+    }
+
+    .fifthText {
+      top: 23%;
+      left: 51%;
+      font-size: 14px;
+      width: 23%;
+    }
+
+  .sixthText {
+      top: 23%;
+      left: 78%;
+      font-size: 14px;
+      width: 21%;
+    }
+
+  .seventhText {
+    top: 53%;
+    left: 51%;
+    font-size: 14px;
+    width: 22%;
+  } 
+
+    .first-container {
+      width: 100%;
+      height: auto;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background: #fcdeb9;
+    }
+
+    .second-container {
+      width: 100%;
+    }
+    
+
+    .buttonDesktop {
+      width: 130px;
+      height: 50px;
+
+      position: absolute;
+
+      /* bottom: calc(50vh - 222px);
+      right: calc(50vw - 340px); */
+      
+      bottom: 26%;
+      right: 20%;
+
+      cursor: pointer;
+    }
+
+    .rightArrow {
+      top: 45%;
+      left: 93%;
+      position: absolute;
+      color: white;
+      width: 75px;
+      height: 75px;
+      cursor: pointer;
+    }
+
+    .leftArrow {
+      top: 45%;
+      right: 93%;
+      position: absolute;
+      color: white;
+      width: 75px;
+      height: 75px;
+      cursor: pointer;
+    }
+
+    .game-container {
+      width: 400px;
+      height: 100vh;
+      background: black;
     }
   }
 
@@ -778,137 +1006,8 @@ export const Container = styled.div`
     }
   }
 
-  @media(min-width: 980px) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-    .firstImage {
-      width: 100%;
-      height: initial;
-      position: relative;
-    }
-
-    .firstText {
-      position: absolute;
-      text-align: left;
-      padding: 20px;
-      top: 22%;
-      width: 45%;
-      left: 0%;
-      font-size: 14px;
-    }
-
-    .secondText {
-      position: absolute;
-      text-align: left;
-      padding: 20px;
-      top: 26%;
-      width: 34%;
-      left: 50%;
-      font-size: 14px;
-    }
-
-    .thirdText {
-      position: absolute;
-      text-align: left;
-      padding: 20px;
-      top: 60%;
-      width: 28%;
-      left: 72%;
-      font-size: 14px;
-    }
-
-    .fourthText {
-      position: absolute;
-      text-align: center;
-      padding: 20px;
-      top: 25%;
-      width: 36%;
-      left: 7%;
-      font-size: 14px;
-    }
-
-    .fifthText {
-      top: 23%;
-      left: 51%;
-      font-size: 14px;
-      width: 23%;
-    }
-
-  .sixthText {
-      top: 23%;
-      left: 78%;
-      font-size: 14px;
-      width: 21%;
-    }
-
-  .seventhText {
-    top: 53%;
-    left: 51%;
-    font-size: 14px;
-    width: 22%;
-  } 
-
-    .first-container {
-      width: 100%;
-      height: auto;
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      background: #fcdeb9;
-    }
-
-    .second-container {
-      width: 100%;
-    }
-    
-
-    .buttonDesktop {
-      width: 130px;
-      height: 50px;
-
-      position: absolute;
-
-      /* bottom: calc(50vh - 222px);
-      right: calc(50vw - 340px); */
-      
-      bottom: 26%;
-      right: 20%;
-
-      cursor: pointer;
-    }
-
-    .rightArrow {
-      top: 45%;
-      left: 93%;
-      position: absolute;
-      color: white;
-      width: 75px;
-      height: 75px;
-      cursor: pointer;
-    }
-
-    .leftArrow {
-      top: 45%;
-      right: 93%;
-      position: absolute;
-      color: white;
-      width: 75px;
-      height: 75px;
-      cursor: pointer;
-    }
-
-    .game-container {
-      width: 400px;
-      height: 100vh;
-      background: black;
-    }
-  }
-
-  @media(min-width: 1200px) {
+@media(min-width: 1200px) {
 
 .first-container {
   width: 100%;
