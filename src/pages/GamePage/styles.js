@@ -30,7 +30,7 @@ export const Container = styled.div`
 
   @media(min-width: 766px) {
     width: 100%;
-    height: 99vh;
+    height: 100vh;
 
     display: flex;
     align-items: center;
@@ -45,14 +45,74 @@ export const Container = styled.div`
 
 
   @media(min-width: 980px) {
-    width: 30%;
-    height: 99vh;
+    width: 40%;
+    height: 100vh;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    background-image: url(${background_game});
+    background-image: url(${background_mobile});
+    background-repeat: no-repeat;
+    background-size: 150vw auto;
+    background-position: center top;
+    background-attachment: fixed;
+  }
+
+  @media(min-width: 1200px) {
+    width: 40%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(${background_mobile});
+    background-repeat: no-repeat;
+    background-size: 150vw auto;
+    background-position: center top;
+    background-attachment: fixed;
+  }
+
+  @media(min-width: 1336px) {
+    width: 40%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(${background_mobile});
+    background-repeat: no-repeat;
+    background-size: 130vw auto;
+    background-position: center top;
+    background-attachment: fixed;
+  }
+
+  @media(min-width: 1500px) {
+    width: 40%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(${background_mobile});
+    background-repeat: no-repeat;
+    background-size: 130vw auto;
+    background-position: center top;
+    background-attachment: fixed;
+  }
+
+  @media(min-width: 1800px) {
+    width: 40%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(${background_mobile});
     background-repeat: no-repeat;
     background-size: 100vw auto;
     background-position: center top;

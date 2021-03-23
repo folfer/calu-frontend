@@ -226,7 +226,7 @@ export const Container = styled.div`
   }
   }
 
-  @media(min-width: 320px) and (min-height: 568px) {
+  @media(min-width: 320px) {
     .firstText {
     top: 21%;
     font-size: 10px;
@@ -723,6 +723,111 @@ export const Container = styled.div`
     }
   }
 
+  @media(orientation: landscape) {
+
+    .firstImage {
+      width: auto;
+      height: 85vh;
+    }
+    .fourImage {
+      width: auto;
+      height: 100vh;
+    }
+
+    .button {
+      width: 100px;
+      height: 35px;
+
+      position: relative;
+
+      bottom: -36%;
+      left: -12%;
+      
+      cursor: pointer;
+    }
+
+    .firstText {
+      position: absolute;
+      text-align: left;
+      padding: 20px;
+      top: 5%;
+      width: 48%;
+      left: 25%;
+      font-size: 11px;
+    }
+
+    .secondText {
+      position: absolute;
+      text-align: left;
+      padding: 20px;
+      top: 10%;
+      width: 46%;
+      left: 25%;
+      font-size: 11px;
+    }
+
+    .thirdText {
+      position: absolute;
+      text-align: left;
+      padding: 20px;
+      top: 59%;
+      width: 31%;
+      left: 45%;
+      font-size: 11px;
+    }
+
+    .fourthText {
+      position: absolute;
+      text-align: center;
+      padding: 20px;
+      top: 9%;
+      width: 51%;
+      left: 25%;
+      font-size: 11px;
+    }
+
+    .fifthText {
+      top: 0%;
+      left: 22%;
+      font-size: 11px;
+      width: 31%;
+  }
+
+  .sixthText {
+    top: 0%;
+    left: 54%;
+    font-size: 11px;
+    width: 23%;
+  }
+
+  .seventhText {
+    top: 46%;
+    left: 22%;
+    font-size: 11px;
+    width: 28%;
+  }
+
+    .rightArrow {
+      top: 45%;
+      left: 90%;
+      position: absolute;
+      color: white;
+      width: 45px;
+      height: 45px;
+      cursor: pointer;
+    }
+
+    .leftArrow {
+      top: 45%;
+      right: 90%;
+      position: absolute;
+      color: white;
+      width: 45px;
+      height: 45px;
+      cursor: pointer;
+    }
+  }
+
   @media(min-width: 980px) {
     display: flex;
     align-items: center;
@@ -905,107 +1010,6 @@ export const Container = styled.div`
     }
   }
 
-  @media(orientation: landscape) {
-    .firstImage {
-      width: auto;
-      height: 85vh;
-    }
-    .fourImage {
-      width: auto;
-      height: 100vh;
-    }
-
-    .button {
-      width: 100px;
-      height: 35px;
-
-      position: relative;
-
-      bottom: -36%;
-      left: -12%;
-      
-      cursor: pointer;
-    }
-
-    .firstText {
-      position: absolute;
-      text-align: left;
-      padding: 20px;
-      top: 5%;
-      width: 48%;
-      left: 25%;
-      font-size: 11px;
-    }
-
-    .secondText {
-      position: absolute;
-      text-align: left;
-      padding: 20px;
-      top: 10%;
-      width: 46%;
-      left: 25%;
-      font-size: 11px;
-    }
-
-    .thirdText {
-      position: absolute;
-      text-align: left;
-      padding: 20px;
-      top: 59%;
-      width: 31%;
-      left: 45%;
-      font-size: 11px;
-    }
-
-    .fourthText {
-      position: absolute;
-      text-align: center;
-      padding: 20px;
-      top: 9%;
-      width: 51%;
-      left: 25%;
-      font-size: 11px;
-    }
-
-    .fifthText {
-    top: 21%;
-    left: 10%;
-    font-size: 11px;
-  }
-
-  .sixthText {
-    top: 21%;
-    left: 10%;
-    font-size: 11px;
-  }
-
-  .seventhText {
-    top: 21%;
-    left: 10%;
-    font-size: 11px;
-  }
-
-    .rightArrow {
-      top: 45%;
-      left: 90%;
-      position: absolute;
-      color: white;
-      width: 45px;
-      height: 45px;
-      cursor: pointer;
-    }
-
-    .leftArrow {
-      top: 45%;
-      right: 90%;
-      position: absolute;
-      color: white;
-      width: 45px;
-      height: 45px;
-      cursor: pointer;
-    }
-  }
-
 
 @media(min-width: 1200px) {
 
@@ -1033,17 +1037,17 @@ export const Container = styled.div`
 }
 
 .firstText {
-  top: 13%;
-  font-size: 20px;
-}
-
-.secondText {
   top: 17%;
   font-size: 20px;
 }
 
+.secondText {
+  top: 22%;
+  font-size: 20px;
+}
+
 .thirdText {
-  top: 61%;
+  top: 57%;
   width: 28%;
   font-size: 20px;
 }
@@ -1054,19 +1058,19 @@ export const Container = styled.div`
 }
 
 .fifthText {
-  top: 15%;
+  top: 19%;
   left: 52%;
   font-size: 20px;
 }
 
 .sixthText {
-  top: 15%;
+  top: 19%;
   left: 78%;
   font-size: 20px;
 }
 
 .seventhText {
-  top: 55%;
+  top: 53%;
   left: 51%;
   font-size: 20px;
   width: 18%;
@@ -1081,7 +1085,7 @@ export const Container = styled.div`
 
   /* bottom: calc(50vh - 250px);
   right: calc(50vw - 435px); */
-  bottom: 20%;
+  bottom: 23%;
   right: 20%;
 
   cursor: pointer;
@@ -1100,7 +1104,7 @@ export const Container = styled.div`
   }
 
   .firstImage {
-    width: auto;
+    width: 100%;
     height: initial;
     position: relative;
   }
@@ -1110,37 +1114,37 @@ export const Container = styled.div`
   }
 
   .firstText {
-    top: 7%;
-    font-size: 20px;
-  }
-
-  .secondText {
     top: 13%;
     font-size: 20px;
   }
 
+  .secondText {
+    top: 18%;
+    font-size: 20px;
+  }
+
   .thirdText {
-    top: 64%;
+    top: 60%;
     width: 24%;
     font-size: 20px;
-    left: 75%;
+    left: 73%;
   }
 
   .fourthText {
-    top: 14%;
+    top: 16%;
     font-size: 20px;
-    left: 5%;
+    left: 7%;
   }
 
   .fifthText {
-    top: 10%;
+    top: 16%;
     left: 51%;
     font-size: 20px;
   }
 
   .sixthText {
-    top: 10%;
-    left: 80%;
+    top: 16%;
+    left: 77%;
     font-size: 20px;
   }
 
@@ -1284,13 +1288,16 @@ export const Container = styled.div`
 }
 
 .firstText {
-  top: 1%;
+  top: 3%;
   font-size: 24px;
+  left: 0%;
 }
 
 .secondText {
-  top: 7%;
+  top: 8%;
   font-size: 24px;
+  left: 50%;
+  width: 30%;
 }
 
 .thirdText {
@@ -1300,8 +1307,10 @@ export const Container = styled.div`
 }
 
 .fourthText {
-  top: 7%;
+  top: 8%;
   font-size: 24px;
+  width: 36%;
+  left: 7%;
 }
 
 .fifthText {
