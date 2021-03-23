@@ -1334,4 +1334,88 @@ export const Container = styled.div`
   width: 17%;
 }
 }
+
+@media(min-width: 1980px) {
+
+.first-container {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstImage {
+  width: 100%;
+  height: initial;
+  position: relative;
+}
+
+.second-container {
+  width: 1800px;
+}
+
+
+.buttonDesktop {
+  width: 130px;
+  height: 50px;
+
+  position: absolute;
+
+  /* bottom: calc(50vh - 280px);
+  right: calc(50vw - 475px); */
+  bottom: 20%;
+  right: 20%;
+
+  cursor: pointer;
+}
+
+.firstText {
+  top: 8%;
+  font-size: 24px;
+  left: 0%;
+}
+
+.secondText {
+  top: 13%;
+  font-size: 24px;
+  left: 50%;
+  width: 30%;
+}
+
+.thirdText {
+  top: 68%;
+  width: 28%;
+  font-size: 24px;
+}
+
+.fourthText {
+  top: 13%;
+  font-size: 24px;
+  width: 36%;
+  left: 7%;
+}
+
+.fifthText {
+  top: 12%;
+  left: 52%;
+  font-size: 24px;
+  width: 21%;
+}
+
+.sixthText {
+  top: 12%;
+  left: 78%;
+  font-size: 24px;
+  width: 20%;
+}
+
+.seventhText {
+  top: 57%;
+  left: 53%;
+  font-size: 24px;
+  width: 17%;
+}
+}
 `;
