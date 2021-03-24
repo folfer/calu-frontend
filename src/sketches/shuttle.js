@@ -4,7 +4,7 @@ export default class Shuttle {
   constructor(p) {
     this.pos = p.createVector(p.width * 0.5, p.height * 0.75);
     this.speed = p.createVector(0, 0);
-    this.size = 80;
+    this.size = 75;
     this.img = p.loadImage(shuttleimg);
   }
 
@@ -12,8 +12,13 @@ export default class Shuttle {
     p.stroke(255);
     p.noFill();
     p.strokeWeight(2);
-    p.image(this.img, this.pos.x - 40, this.pos.y - 40, this.size, this.size);
-    // p.ellipse(this.pos.x, this.pos.y, this.size, this.size);
+    p.image(
+      this.img,
+      this.pos.x - 32.5,
+      this.pos.y - 32.5,
+      this.size,
+      this.size
+    );
   }
 
   jump(p, mousex, score) {
