@@ -1,8 +1,8 @@
 import imgbird from "../assets/bird.svg";
 export default class Obstacle {
   constructor(p, score) {
-    this.pos = p.createVector(-10, p.random(0, p.windowHeight));
-    this.speed = p.createVector(p.random(1, 5), 0);
+    this.pos = p.createVector(-10, p.random(0, p.height));
+    this.speed = p.createVector(p.random(1, 3), 0);
     this.size = 60;
     this.img = p.loadImage(imgbird);
   }
@@ -16,9 +16,9 @@ export default class Obstacle {
   }
 
   offscreen(p) {
-    if (this.pos.x > p.windowWidth) {
+    if (this.pos.x > p.width) {
       this.pos.x = 0;
-      this.pos.y = p.random(0, p.windowHeight);
+      this.pos.y = p.random(0, p.height);
       this.pos.add((this.speed.x += 1));
     }
   }

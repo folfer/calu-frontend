@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import background_game from '../../assets/background.svg';
+// import background_game from '../../assets/background.svg';
 import background_mobile from '../../assets/background.svg';
 
 

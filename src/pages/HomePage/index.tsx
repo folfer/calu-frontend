@@ -5,8 +5,6 @@ import FlipPage from "react-flip-page";
 import { MdChevronRight, MdChevronLeft } from "react-icons/md";
 import { useHistory } from "react-router-dom";
 
-import GamePage from "../GamePage/index";
-
 import { Container } from "./styles";
 
 import First from "../../assets/firstmobile.png";
@@ -18,7 +16,7 @@ import FirstDesktop from "../../assets/first.png";
 import SecondDesktop from "../../assets/second.png";
 
 const HomePage: React.FC = () => {
-  const [isHistory, setIsHistory] = useState(false);
+  const isHistory = false;
   const [isMobile, setIsMobile] = useState(false);
 
   const history = useHistory();

@@ -37,6 +37,10 @@ export default class Shuttle {
     this.pos.add(this.speed);
   }
 
+  resetPosition(p) {
+    this.pos = p.createVector(p.width * 0.5, p.height * 0.5);
+  }
+
   isAlive(p) {
     if (this.pos.y > p.height || this.pos.x < 0 || this.pos.x > p.width) {
       return false;
