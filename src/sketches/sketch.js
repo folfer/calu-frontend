@@ -91,7 +91,7 @@ const P5Sketch = () => {
         obstacles.forEach((obstacle) => {
           obstacle.render(p5);
           obstacle.move(p5);
-          obstacle.offscreen(p5);
+          obstacle.offscreen(p5, score);
           if (stl.detectCollision(p5, obstacle.pos, obstacle.size)) {
             birdCollision.play();
 
