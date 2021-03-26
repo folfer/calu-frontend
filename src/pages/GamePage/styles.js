@@ -45,15 +45,6 @@ export const Container = styled.div`
     background-attachment: fixed;
   }
 
-  @media(orientation: landscape) {
-    width: 100%;
-    height: 100vh;
-
-    overflow-y: hidden;
-    transform: rotate(-90deg);
-  }
-
-
   @media(min-width: 980px) {
     width: 44%;
     height: 100vh;
