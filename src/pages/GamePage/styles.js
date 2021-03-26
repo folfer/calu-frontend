@@ -45,7 +45,6 @@ export const Container = styled.div`
     background-attachment: fixed;
   }
 
-
   @media(min-width: 980px) {
     width: 44%;
     height: 100vh;
